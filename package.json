@@ -1,0 +1,13 @@
+{
+  "name": "refactoring",
+  "version": "1.0.0",
+  "description": "refactoring improving the design of existing code",
+  "scripts": {},
+  "author": "RetroAstro",
+  "license": "MIT",
+  "dependencies": {
+    "@types/chai": "^4.2.2",
+    "@types/mocha": "^5.2.7",
+    "typescript": "^3.6.3"
+  }
+}
