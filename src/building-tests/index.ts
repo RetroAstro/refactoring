@@ -8,7 +8,7 @@ interface ProvinceInterface {
   name: string
   demand: number
   price: number
-  producers: (ProducerInterface)[]
+  producers: ProducerInterface[]
 }
 
 class Producer {
@@ -28,8 +28,8 @@ class Producer {
   get production() { return this._production }
   set production(amountStr: any) {
     const newProduction = parseInt(amountStr)
-    this._production = newProduction
     this._province.totalProduction += newProduction - this._production
+    this._production = newProduction
   }
 }
 
@@ -38,7 +38,7 @@ export class Province {
   _demand: number
   _price: number
   _totalProduction: number = 0
-  _producers: (Producer)[] = []
+  _producers: Producer[] = []
   constructor(doc: ProvinceInterface) {
     this._name = doc.name
     this._demand = doc.demand
