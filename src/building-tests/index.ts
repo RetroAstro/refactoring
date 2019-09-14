@@ -4,7 +4,7 @@ interface ProducerInterface {
   production: number
 }
 
-interface ProvinceInterface {
+export interface ProvinceInterface {
   name: string
   demand: number
   price: number
