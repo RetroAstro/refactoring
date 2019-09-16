@@ -15,7 +15,7 @@ export interface Invoice {
 }
 
 export interface Play {
-  name: string,
+  name: string
   type: string
 }
 
