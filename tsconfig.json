@@ -11,7 +11,8 @@
     "alwaysStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "resolveJsonModule": true
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules"]
