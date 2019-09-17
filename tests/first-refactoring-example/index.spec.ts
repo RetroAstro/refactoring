@@ -7,14 +7,7 @@ import {
   htmlStatement,
   renderText,
   renderHtml,
-  createStatementData
 } from '../../src/first-refactoring-example'
-
-describe('createStatementData', () => {
-  it('should equal to statementData', () => {
-    expect(JSON.stringify(createStatementData(invoice, plays))).equal(JSON.stringify(statementData))
-  })
-})
 
 describe('textStatement', () => {
   it('should equal to textStatement', () => {
