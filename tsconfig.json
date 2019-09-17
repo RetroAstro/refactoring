@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "rootDir": "src",
     "outDir": "dist",
     "target": "es5",
     "module": "commonjs",
@@ -14,6 +13,6 @@
     "noImplicitReturns": true,
     "resolveJsonModule": true
   },
-  "include": ["src"],
+  "include": ["src", "tests"],
   "exclude": ["dist", "node_modules"]
 }

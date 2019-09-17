@@ -9,7 +9,7 @@ export function htmlStatement(invoice: Invoice, plays: Plays) {
   return renderHtml(createStatementData(invoice, plays))
 }
 
-function renderText(data: Statement) {
+export function renderText(data: Statement) {
   let result = `Statement for ${data.customer}\n`
   for (let perf of data.performances) {
     result += `${perf.play.name}: ${usd(perf.amount)} (${perf.audience} seats)\n`
@@ -19,7 +19,7 @@ function renderText(data: Statement) {
   return result
 }
 
-function renderHtml(data: Statement) {
+export function renderHtml(data: Statement) {
   let result = `<h1>Statement for ${data.customer}</h1>\n`
   result += '<table>\n'
   result += '<tr><th>play</th><th>seats</th><th>cost</th></tr>'

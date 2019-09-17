@@ -1,2 +1,24 @@
-# refactoring
-refactoring improving the design of existing code
+# Refactoring
+提炼函数
+
+改变函数声明
+
+搬移函数
+
+变量改名
+
+内联变量
+
+以查询取代临时变量
+
+拆分循环
+
+移动语句
+
+拆分阶段
+
+以管道取代循环
+
+以多态取代条件表达式
+
+以工厂函数取代构造函数
