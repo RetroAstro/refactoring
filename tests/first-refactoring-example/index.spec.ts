@@ -12,10 +12,7 @@ import {
 
 describe('createStatementData', () => {
   it('should equal to statementData', () => {
-    expect(
-      JSON.stringify(createStatementData(invoice, plays))
-    )
-    .equal(JSON.stringify(statementData))
+    expect(JSON.stringify(createStatementData(invoice, plays))).equal(JSON.stringify(statementData))
   })
 })
 
