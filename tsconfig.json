@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
+    "rootDirs": ["src", "tests"],
     "outDir": "dist",
     "target": "es5",
     "module": "commonjs",
+    "lib": ["esnext"],
     "allowJs": false,
     "removeComments": true,
     "noImplicitAny": true,

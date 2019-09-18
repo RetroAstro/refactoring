@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "refactoring improving the design of existing code",
   "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.json",
     "test": "mocha -r ts-node/register tests/**/*.spec.ts"
   },
   "author": "RetroAstro",
